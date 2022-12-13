@@ -16,12 +16,17 @@ h1 {
   font-weight: 700;
 }
 
+h7 {
+  color: black;
+}
+
 h2 {
   color:white;
+  
 }
 
 a {
-  color: black;
+  color: #C8B273;
 }
 
 p {
@@ -29,7 +34,7 @@ p {
 }
 
 .title {
-  color: white;
+  color: #C8B273;
   text-shadow: 2px 2px black;
   text-align: center;
   padding: 48px;
@@ -60,6 +65,7 @@ h5 {
   top: 0px;
   position: fixed;
   background-color: #C8B273;
+  
   
 }
 
@@ -108,6 +114,7 @@ h5 {
   margin-left: auto;
   margin-right: 20px;
   
+  
 }
 
 .nav-links a {
@@ -115,13 +122,14 @@ h5 {
   display: block;
   font-size: 20px;
   padding: 16px;
+  color:black;
 }
 
 .nav-links a:hover {
-  background-color: lightblue;
+  background-color: silver;
   cursor: pointer;
-  color: white;
-  text-shadow: 2px 2px 1px black;
+  
+  
 }
 
 
@@ -138,21 +146,9 @@ background-color: black;
 }
 
 
-/* round box over compete to win a cholarship */
+/* round box over compete to win a scholarship */
 
-.media-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 1000px;
-  margin: 128px 72px 72px;
-  gap: 24px;
-  padding: 32px;
-  border: 3px solid gray;
-  border-radius: 200px;
-  box-shadow: 2px 2px 20px 2px;
-  background: rgb(230, 250, 250)
-}
+
 
 
 /* Compete to win a Scholarship! */
@@ -166,17 +162,20 @@ background-color: black;
 }
 
 .textbox h1 {
-  color: black;
-  text-shadow: 2px 2px silver;
+  color: #C8B273;
+  
 }
 
 .main-img {
   object-fit: cover;
   flex: 1 1 auto;
   max-width: 300px;
-  border: 15px solid burlywood;
+  border: 15px solid #C8B273;
   border-radius: 50%;
   box-shadow: 2px 2px 3px;
+  text-align: center;
+ 
+  
 }
 
 
@@ -214,7 +213,7 @@ background-color: black;
 .worker-icon {
   width: 200px;
   height: 200px;
-  border: 12px solid rgb(230, 250, 250);
+  border: 12px solid silver; 73; (230, 250, 250);
   border-radius: 32px;
   box-shadow: 2px 2px 3px gray;
   object-fit: cover;
@@ -243,7 +242,7 @@ background-color: black;
   justify-content: center;
   text-align: center;
   width: 100%;
-  background-color: #C8B273;
+  background-color: black;
  
   background-position: center;
   background-size: cover;
@@ -266,12 +265,12 @@ background-color: black;
 }
 
 .contact-icon {
-  height: 30px;
-  width: 30px;
+  height: 130px;
+  width: 130px;
 }
 
 .contact-section a {
-  color: white;
+  color: #C8B273;
   text-decoration: none;
   font-weight: bolder;
   text-shadow: black 2px 2px;
@@ -305,6 +304,6 @@ background-color: black;
 footer p {
   padding: 24px;
   text-align: center;
-  color: #C8B273;
-  background-color: black;
+  color: black;
+  background-color: #C8B273;
 }
