@@ -92,7 +92,7 @@ a.active,a:hover{
   }
 }
 section{
-  background: url(headerlogo.jpg) no-repeat;
+  background: url(websiteheader2.jpg) no-repeat;
   background-size: cover;
   height: calc(100vh - 80px);
 }
@@ -129,8 +129,8 @@ html {
 }
 
 .MMGscholarship-icon {
-  height: 300;
-  width: 400px;
+  height: 400;
+  width: 1000px;
   
   
 }
@@ -288,3 +288,11 @@ footer p {
 }
 
 
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/Gilroy/Gilroy-ExtraBold.otf') format('truetype');
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+}
