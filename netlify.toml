@@ -1,8 +1,8 @@
 [[redirects]]
-from = "/*"
-to = "index.html"
-status = 200
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
 [build]
-publish = "mmg"
-command = "echo 'This site does not need to be built. Deploying HTML and CSS files.'"
+  publish = mmg
+  command = "echo 'This site does not need to be built. Deploying HTML and CSS files.'"
