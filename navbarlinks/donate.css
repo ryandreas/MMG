@@ -14,7 +14,7 @@
     width: 100%;
   }
   label.logo{
-    color: white;
+    color: #C8B273;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -30,7 +30,7 @@
     margin: 0 5px;
   }
   nav ul li a{
-    color: white;
+    color: #C8B273;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -42,7 +42,7 @@
   }
   .checkbtn{
     font-size: 30px;
-    color: white;
+    color: #C8B273;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -69,7 +69,7 @@
       position: fixed;
       width: 100%;
       height: 100vh;
-      background: #2c3e50;
+      background: #C8B273;
       top: 80px;
       left: -100%;
       text-align: center;
@@ -85,7 +85,7 @@
     }
     a:hover,a.active{
       background: none;
-      color: #0082e6;
+      color: #C8B273;
     }
     #check:checked ~ ul{
       left: 0;
@@ -133,7 +133,7 @@
     padding: 4px 24px;
     border-radius: 4px;
     background-color: #C8B273;
-    border: white;
+    border: #C8B273;
     font-size: xx-large;
     color: black;
     cursor: pointer;
@@ -147,7 +147,7 @@
   
   
   
-  lastfooter{
+  lastfooter {
     font-size: small;
   }
   
@@ -181,3 +181,75 @@
     font-family: 'Gilroy', sans-serif;
   }
   
+
+  .meow-button {
+    font-weight: 500;
+    padding: 22px 14px;
+    border-radius: 14px;
+    background-color: #C8B273;
+    font-size: xx-large;
+    align-self: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+  }
+
+  .text {
+    color: #C8B273;
+    text-align: center;
+    font-size: 50px;
+  
+  }
+
+  .donate-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #C8B273;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .donate-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .donate-btn {
+      font-size: 14px;
+    }
+  }
+
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    height: 200px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  a {
+    color: #C8B273;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text {
+    color: #C8B273;
+    text-align: center;
+    font-size: 50px;
+  
+  }
+
