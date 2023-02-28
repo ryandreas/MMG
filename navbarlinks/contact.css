@@ -109,7 +109,7 @@ section{
 }
 
 html {
-  background-color: black;
+  background-color: #C8B273;
   scroll-behavior: smooth;
 }
 
@@ -160,27 +160,75 @@ footer p {
 
 h1 {
 text-align: center;
-color: black;
+color: #C8B273;
 
 }
 
 p {
  
-    color: #C8B273;
+    color: silver;
     text-align: center;
-    font-size: xx-large;
+    font-size: large;
     
 }
 
+h1 {
+ 
+  color: #C8B273;
+  text-align: center;
+  font-size: xx-large;
+  
+}
+
+h2 {
+ 
+color: silver;
+text-align: left;
+font-size: large;
+
+}
+h3 {
+ 
+color: #C8B273;
+text-align: left;
+font-size: xx-small;
+
+}
+
+h4 {
+ 
+  color: silver;
+  text-align: center;
+  font-size: large;
+  
+  }
+
+.container {
+display: grid;
+align-items: center; 
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 5px;
+}
+
+img {
+ max-width: 100%;
+ max-height:100%;
+}
+
+.text {
+ font-size: 70px;
+}
 
 @font-face {
-  font-family: 'Gilroy';
+  font-family: 'YourFontName';
   src: url('/Gilroy/Gilroy-ExtraBold.otf') format('truetype');
 }
 
 body {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'YourFontName', sans-serif;
 }
+
+
 
 
 
