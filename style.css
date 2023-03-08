@@ -80,6 +80,9 @@ section{
   width: auto;
   margin-left: 25px;
   float: left;
+  
+  
+  object-fit: cover;
 }
 
 html {
