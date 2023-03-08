@@ -109,7 +109,7 @@ section{
 }
 
 html {
-  background-color: #C8B273;
+  background-color: black;
   scroll-behavior: smooth;
 }
 
@@ -160,7 +160,7 @@ footer p {
 
 h1 {
 text-align: center;
-color: #C8B273;
+color: black;
 
 }
 
@@ -189,7 +189,7 @@ font-size: large;
 }
 h3 {
  
-color: #C8B273;
+color: black;
 text-align: left;
 font-size: xx-small;
 
@@ -226,6 +226,21 @@ img {
 
 body {
   font-family: 'YourFontName', sans-serif;
+}
+
+
+.meow-button {
+  font-weight: 500;
+  padding: 22px 14px;
+  border-radius: 14px;
+  background-color: #C8B273;
+  font-size: xx-large;
+  align-self: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  
 }
 
 

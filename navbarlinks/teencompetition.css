@@ -220,10 +220,25 @@ img {
 }
 
 @font-face {
-  font-family: 'Gilroy';
+  font-family: 'YourFontName';
   src: url('/Gilroy/Gilroy-ExtraBold.otf') format('truetype');
 }
 
 body {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'YourFontName', sans-serif;
+}
+
+
+.meow-button {
+  font-weight: 500;
+  padding: 22px 14px;
+  border-radius: 14px;
+  background-color: #C8B273;
+  font-size: xx-large;
+  align-self: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  
 }
